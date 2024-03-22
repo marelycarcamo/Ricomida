@@ -4,34 +4,32 @@
 	margin: 0;
 }
 
-body, .cabin-condensed-regular {
+body,
+.cabin-condensed-regular {
 	font-family: "Cabin Condensed", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color:	#373a3c;
+	color: #373a3c;
 }
 
 .cabin-condensed-bold,
 #title-card-principal,
 #text-card-principal,
 #title-recetas-relacionadas-section,
-.card-title-recetas-relacionadas, #newsletter :nth-child(1) {
+.card-title-recetas-relacionadas,
+#newsletter :nth-child(1) {
 	font-family: "Cabin Condensed", sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
 .lobster-two-regular,
-#navbar-brand, footer{
+#navbar-brand,
+footer {
 	font-family: "Lobster Two", sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
 }
-
-
-/* .color-cafe{
-color:	#373a3c;
-} */
 
 /* ****** NAVBAR ******* */
 
@@ -82,13 +80,15 @@ color:	#373a3c;
 	height: auto;
 }
 
-#title-card-principal,
-#title-recetas-relacionadas-section {
-	color: #373a3c;
-	font-size: 40px;
+#title-card-principal {
 	width: 425px;
 	height: 201px;
 	line-height: 1;
+}
+
+#title-recetas-relacionadas-section,
+#title-card-principal {
+	font-size: 40px;
 }
 
 #text-card-principal {
@@ -100,10 +100,7 @@ color:	#373a3c;
 	/* color: #373a3c; */
 }
 
-
-
 /* **************** CARRUSEL ** *********** */
-
 
 .carousel-item img {
 	width: 233px;
@@ -112,23 +109,27 @@ color:	#373a3c;
 
 
 
+.carousel-indicators [data-bs-target] {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
 /* 
 ********* RECETA ******* */
 
-
-#receta-section{
-	padding-inline: 30%;
+#receta-section {
+	padding-inline: 20%;
 }
 
-#ingredientes, #preparacion{
+#ingredientes,
+#preparacion {
 	font-size: 20px;
 }
 
-
-
 /* ********* RECETAS RELACIONADAS ********** */
 
-.card-recetas-relacionadas{
+.card-recetas-relacionadas {
 	max-width: 316px;
 }
 
@@ -140,59 +141,41 @@ color:	#373a3c;
 	height: 180px;
 }
 
-.card-body-recetas-relacionadas {
-	/* height: 197px; */
-}
-
 .card-title-recetas-relacionadas {
 	font-size: 23px;
 }
 
 .card-text-recetas-relacionadas {
-	font-size: 16px;
+	font-size: 20px;
 }
-
-
-
-
-
 
 /* ********* NEWSLETTER ********+ */
 
-#newsletter-section{
-height: 534px;
-background-color: #DC3545;
+#newsletter-section {
+	height: 534px;
+	background-color: #dc3545;
 }
 
-#newsletter :nth-child(1){
+#newsletter :nth-child(1) {
 	font-size: 40px;
 }
 
-#newsletter :nth-child(2){
+#newsletter :nth-child(2) {
 	font-size: 30px;
 }
 
-#newletter button{
+#newletter button {
 	width: 233px;
 	height: 40px;
 }
 
-
-
-
-
-
 /* ****** FOOTER ******** */
 
-footer{
+footer {
 	background-color: #373a3c;
 	height: 125px;
 	font-size: 37px;
 }
-
-
-
-
 
 /* *******  (max-width: 768px) ******* */
 
@@ -206,6 +189,7 @@ footer{
 	}
 }
 
+
 @media only screen and (max-width: 1200px) {
 	*,
 	.row div {
@@ -215,6 +199,7 @@ footer{
 	#body-card-principal {
 		padding: 0px;
 		width: 482px;
+		
 	}
 
 	#title-card-principal {

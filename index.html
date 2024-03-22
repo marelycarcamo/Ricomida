@@ -27,7 +27,8 @@
 		<title>Ricomida</title>
 	</head>
 	<body>
-		<!-- NAVBAR -->
+		<!-- ******************************** N A V B A R ********************************** -->
+
 		<nav class="navbar navbar-expand-md sticky-top">
 			<div class="container container-navbar">
 				<a id="navbar-brand" class="navbar-brand text-light" href="#"
@@ -58,6 +59,8 @@
 				</div>
 			</div>
 		</nav>
+
+		<!-- ******************************** C A R D   P R I N C I P A L ********************************** -->
 
 		<div
 			id="container-card-principal"
@@ -118,24 +121,137 @@
 			</div>
 		</div>
 
-		<hr class="my-5" />
+		<hr class="bottom-100 bg-black opacity-100 h-auto my-5" />
 
-		<section id="receta-section" class="row d-flex flex-row justify-content-center border border-success">
-			<div class="col-6 border border-danger">
+		<!-- ***********************   C A R R U S E L ************************* -->
+
+		<div
+			id="myCarousel"
+			class="carousel slide container d-none d-md-flex"
+			data-bs-ride="carousel">
+			<div class="carousel-indicators carousel-indicators-bottom">
+				<button
+					type="button"
+					data-bs-target="#myCarousel"
+					data-bs-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"></button>
+				<button
+					type="button"
+					data-bs-target="#myCarousel"
+					data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-3">
+							<img
+								src="assets/img/slider-1.png"
+								class="d-block w-100 shadow"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-2.png"
+								class="d-block w-100 shadow"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-3.png"
+								class="d-block w-100 shadow"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-4.png"
+								class="d-block w-100 shadow"
+								alt="..." />
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-3">
+							<img
+								src="assets/img/slider-5.png"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-6.png"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-7.png"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+						<div class="col-3">
+							<img
+								src="assets/img/slider-8.png"
+								class="d-block w-100"
+								alt="..." />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#myCarousel"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#myCarousel"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- *************************** R E C E T A ***************************** -->
+
+		<section
+			id="receta-section"
+			class="row d-flex flex-row justify-content-center">
+			<div class="col-md-6 col-sm-12">
 				<p id="ingredientes" class="text-decoration-underline">INGREDIENTES</p>
 				<p>
-					Masa 20 gr de levadura seca instantánea <br> 1 cucharadita de azúcar <br> 500 ml
-					agua tibia <br> 100 ml aceite vegetal <br> 4 cucharadas de aceite de oliva <br> 65 gr
-					harina de maíz fina (chuchoca) <br> 2 cucharaditas de sal <br> 625 gr harina <br><br>
-					Salsa <br>5 cucharadas de aceite de oliva <br> ½ cebolla picada en cubos finos <br>
-					2 cucharaditas de sal <br> 3 cucharadas de Orégano Gourmet <br> 1 ½ cucharadas
-					de Albahaca Gourmet <br> 2 tarro de tomates en cubos al natural <br> 2
-					cucharaditas de azúcar <br><br> Relleno <br> ½ cebolla, en cubos <br> 500 gr hojas de
-					espinacas picadas<br> 400 gr de champiñones, laminados <br> 300 gr de queso
-					mozarella. <br> 4 cucharadas queso parmesano
+					Masa 20 gr de levadura seca instantánea <br />
+					1 cucharadita de azúcar <br />
+					500 ml agua tibia <br />
+					100 ml aceite vegetal <br />
+					4 cucharadas de aceite de oliva <br />
+					65 gr harina de maíz fina (chuchoca) <br />
+					2 cucharaditas de sal <br />
+					625 gr harina <br /><br />
+					Salsa <br />5 cucharadas de aceite de oliva <br />
+					½ cebolla picada en cubos finos <br />
+					2 cucharaditas de sal <br />
+					3 cucharadas de Orégano Gourmet <br />
+					1 ½ cucharadas de Albahaca Gourmet <br />
+					2 tarro de tomates en cubos al natural <br />
+					2 cucharaditas de azúcar <br /><br />
+					Relleno <br />
+					½ cebolla, en cubos <br />
+					500 gr hojas de espinacas picadas<br />
+					400 gr de champiñones, laminados <br />
+					300 gr de queso mozarella. <br />
+					4 cucharadas queso parmesano
 				</p>
 			</div>
-			<div class="col-6 border border-danger" >
+			<div class="col-md-6 col-sm-12">
 				<p id="preparacion" class="text-decoration-underline">PREPARACIÓN</p>
 				<p>
 					1. Para la masa, disolver la levadura y el azúcar en agua tibia en un
@@ -147,92 +263,86 @@
 					masa no se pegue) . Poner la masa en un bol aceitado, tapar con un
 					paño de cocina limpio y dejar reposar hasta que la masa duplique su
 					volumen (leudar). Golpear la masa para que baje y luego dejar leudar
-					por 40 minutos adicionales. <br><br> 2. Mientras tanto preparar la salsa:
-					Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la
-					cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la
-					cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar
-					los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar
-					el azúcar y cocinar hasta que la mezcla se haya reducido y espesado,
-					como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.<br><br> 3.
-					Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén
+					por 40 minutos adicionales. <br /><br />
+					2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite
+					en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet,
+					Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada.
+					Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al
+					jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar
+					hasta que la mezcla se haya reducido y espesado, como 30 minutos.
+					Sazonar con sal y pimienta a gusto. Reservar.<br /><br />
+					3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén
 					transparentes. Agregar los champiñones y las espinacas, cocinar hasta
 					que estén cocidos y se haya evaporado todo el líquido que hayan votado
-					los vegetales. Reservar. <br><br>4. Calentar el horno a 220C. <br><br>5. Una vez que
-					la masa haya reposado, dividirla en dos bolas. Estirar cada masa para
-					cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con
-					la masa. Dividir el relleno entre las dos pizza, tapar con el queso
-					mozarella, luego terminar con la salsa de tomates y finalmente
-					espolvorear el queso rallado. <br><br>6. Hornear por 35 a 40 minutos o hasta
-					que el relleno esté caliente y la base esté esponjosa y dorada.
-					Esperar unos minutos antes de desmoldar.
+					los vegetales. Reservar. <br /><br />4. Calentar el horno a 220C.
+					<br /><br />5. Una vez que la masa haya reposado, dividirla en dos
+					bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26
+					cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las
+					dos pizza, tapar con el queso mozarella, luego terminar con la salsa
+					de tomates y finalmente espolvorear el queso rallado. <br /><br />6.
+					Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la
+					base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
 				</p>
 			</div>
 		</section>
 
-		<hr />
-
+		<hr class="bottom-100 bg-black opacity-100 h-auto my-5" />
+		<!-- **************** R E C E T A S    R E L A C I O N A D A S ***************** -->
 		<section
 			id="recetas-relacionadas-section"
-			class="row-cols-4 d-flex flex-column align-items-center">
+			class="row d-flex flex-column align-items-center">
 			<div id="title-recetas-relacionadas-section">
-				<p class="text-center color-cafe">RECETAS RELACIONADAS</p>
+				<p class="text-center">RECETAS RELACIONADAS</p>
 			</div>
-			<div class="d-flex flex-row justify-content-evenly w-75">
-				<div class="card-recetas-relacionadas border border-2">
+			<div class="row d-flex flex-row justify-content-evenly w-75">
+				<div
+					class="col-sm-12 col-lg-4 card-recetas-relacionadas border border-2">
 					<img
 						src="assets/img/recipe-card-1.png"
 						class="card-img-top-recetas-relacionadas p-0 g-0"
 						alt="..." />
-					<div
-						id="title-card-1"
-						class="card-body-recetas-relacionadas g-0 px-5 pt-3 pd-5">
+					<div class="card-body-recetas-relacionadas g-0 px-5 pt-3 pd-5">
 						<p
-							class="card-title-recetas-relacionadas color-cafe style"
+							id="title-card-1"
+							class="card-title-recetas-relacionadas"
 							style="line-height: 1">
 							PANQUEQUES CON MANJAR Y CREMA
 						</p>
-						<p
-							id="text-card-1"
-							class="card-text-recetas-relacionadas color-cafe">
+						<p id="text-card-1" class="card-text-recetas-relacionadas">
+							Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+							est vulputate nostra, blandit erat .
+						</p>
+					</div>
+				</div>
+
+				<div
+					class="col-sm-12 col-lg-4 card-recetas-relacionadas border border-2">
+					<img
+						src="assets/img/recipe-card-2.png"
+						class="card-img-top-recetas-relacionadas p-0 g-0"
+						alt="..." />
+					<div class="card-body-recetas-relacionadas g-0 px-5 pt-3 pd-5">
+						<p id="title-card-2" class="card-title-recetas-relacionadas">
+							TIRAMISÚ
+						</p>
+						<p id="text-card-2" class="card-text-recetas-relacionadas">
 							Mus enim elementum dignissim class eleifend justo, ut nunc magnis
 							est vulputate nostra, blandit erat luctus faucibus orci.
 						</p>
 					</div>
 				</div>
 
-				<div class="card-recetas-relacionadas border border-2">
-					<img
-						src="assets/img/recipe-card-2.png"
-						class="card-img-top-recetas-relacionadas p-0 g-0"
-						alt="..." />
-					<div
-						id="title-card-2"
-						class="card-body-recetas-relacionadas g-0 px-5 pt-3 pd-5">
-						<p class="card-title-recetas-relacionadas color-cafe">TIRAMISÚ</p>
-						<p
-							id="text-card-2"
-							class="card-text-recetas-relacionadas color-cafe">
-							Congue fermentum dignissim rhoncus elementum ac nisi, proin
-							phasellus lacinia sed faucibus mauris, taciti scelerisque nulla
-							ornare consequat.
-						</p>
-					</div>
-				</div>
-
-				<div class="card-recetas-relacionadas border border-2 w-100">
+				<div
+					class="col-sm-12 col-lg-4 card-recetas-relacionadas border border-2 w-100">
 					<img
 						src="assets/img/recipe-card-3.png"
 						class="card-img-top-recetas-relacionadas p-0 g-0"
 						alt="..." />
 					<div class="card-body-recetas-relacionadas g-0 px-5 pt-3 pd-5">
-						<p
-							id="title-card-3"
-							class="card-title-recetas-relacionadas color-cafe">
+						<p id="title-card-3" class="card-title-recetas-relacionadas">
 							PLATEADA
 						</p>
-						<p
-							id="text-card-3"
-							class="card-text-recetas-relacionadas color-cafe">
+						<p id="text-card-3" class="card-text-recetas-relacionadas">
 							Cubilia elementum posuere arcu rhoncus egestas lectus, diam
 							aliquam laoreet ac eleifend risus, urna auctor inceptos mattis
 							dapibus.
@@ -241,7 +351,7 @@
 				</div>
 			</div>
 		</section>
-
+		<!-- ********************* N E W S L E T T E R ***************************** -->
 		<section
 			id="newsletter-section"
 			class="d-flex flex-column justify-content-center mt-5">
@@ -252,10 +362,16 @@
 					<span class="lobster-two-regular">Ricomida</span>
 				</p>
 
-				<button id="#bt-newsletter" type="button" class="btn btn-lg rounded-2 border-1 border-secondary-subtle text-bg-danger text-white">Empezar</button>
-
+				<button
+					id="#bt-newsletter"
+					type="button"
+					class="btn btn-lg rounded-2 border-1 border-secondary-subtle text-bg-danger text-white">
+					Empezar
+				</button>
 			</div>
 		</section>
+
+		<!-- ************************* F O O T E R *********************** -->
 		<footer
 			class="text-center text-white d-flex justify-content-center align-items-center">
 			<div>Ricomida</div>

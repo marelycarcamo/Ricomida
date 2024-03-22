@@ -1,8 +1,13 @@
-$(function () {
-	$('[data-toggle="tooltip"]').tooltip();
-});
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
 
 $(document).ready(function () {
+	$('[data-toggle="tooltip"]').tooltip();
+
+
 	$("#enviarCorreo").click(function () {
 		alert("El correo fue enviado correctamente");
 	});
@@ -16,6 +21,7 @@ $(document).ready(function () {
 		$("#text-card-2").toggle();
 	});
 
+
 	$("#title-card-3").on("click", function () {
 		$("#text-card-3").toggle();
 	});
@@ -27,9 +33,6 @@ $(document).ready(function () {
 	$("#ingredientes").on("dblclick", function(){
 		$(this).css("color", "red");
 	});
-
-
-
 
 
 
