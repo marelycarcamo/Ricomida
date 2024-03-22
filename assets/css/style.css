@@ -63,17 +63,16 @@ footer {
 	padding-inline: 11,7%;
 }
 
-#container-card-principal {
-	margin-top: 24px;
-	/* margin-inline: 11,7%; */
+#hr-sup-card-principal{
+	max-width: 482px;
 }
 
-#body-card-principal {
-	padding-left: 4%;
+#container-card-principal {
+	margin-top: 24px;
 }
 
 #card-principal {
-	width: 990px;
+	max-width: 990px;
 }
 
 #img-card-principal {
@@ -84,15 +83,10 @@ footer {
 	height: auto;
 }
 
-#title-card-principal {
-	width: 425px;
-	height: 201px;
-	line-height: 1;
-}
-
 #title-recetas-relacionadas-section,
 #title-card-principal {
 	font-size: 40px;
+	line-height: 1;
 }
 
 #text-card-principal {
@@ -104,12 +98,6 @@ footer {
 }
 
 /* **************** CARRUSEL ** *********** */
-
-
-#myCarousel{
-	/* margin-inline: 11,7%; */
-	border: 1px solid red;
-}
 
 .carousel-item div div img {
 	max-width: 233px;
@@ -125,20 +113,23 @@ footer {
 /* 
 ********* RECETA ******* */
 
-#receta-section {
-	/* margin-inline: 11,7%; */
-}
-
 #text-ingredientes,
 #text-preparacion {
 	font-size: 20px;
-	max-width: 482px;
+	
+
 }
+
 
 /* ********* RECETAS RELACIONADAS ********** */
 
+.row div {
+	padding: 0px;
+}
+
 .card-recetas-relacionadas {
-	padding :0px;
+	padding :0;
+	padding-block: 10px;
 	width: 316px;
 }
 
@@ -151,12 +142,14 @@ footer {
 }
 
 .card-title-recetas-relacionadas {
+	line-height: 1;
 	font-size: 23px;
 }
 
 .card-text-recetas-relacionadas {
 	font-size: 20px;
 }
+
 
 
 
@@ -175,11 +168,11 @@ footer {
 	font-size: 30px;
 }
 
-#newletter button {
+#bt-newsletter {
 	width: 233px;
 	height: 40px;
+	font-size: 16px;
 }
-
 
 
 
@@ -191,6 +184,9 @@ footer {
 	font-size: 37px;
 }
 
+
+
+
 /* *******  (max-width: 768px) ******* */
 
 @media only screen and (max-width: 576px) {
@@ -201,6 +197,43 @@ footer {
 	.navbar-nav {
 		position: static;
 	}
+
+	#card-principal, #img-card-principal, #body-card-principal {
+		max-width: 246px;
+
+	}
+
+	#title-card-principal{
+		font-size: 25px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	#text-ingredientes {
+
+		padding-left: 25%;
+	}
+	
+	#text-preparacion{
+		padding-left: 15%;
+	}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+#text-ingredientes{
+	padding-left: 40%;
+}
+
+#body-card-principal{
+	padding-left: 10px;
+}
+
+
 }
 
 
@@ -212,8 +245,7 @@ footer {
 
 	#body-card-principal {
 		padding: 0px;
-		width: 482px;
-		
+		max-width: 482px;
 	}
 
 	#title-card-principal {
