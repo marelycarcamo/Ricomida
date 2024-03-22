@@ -57,11 +57,15 @@ footer {
 	font-size: 16px;
 }
 
+
 /* ********** C A R D  PRINCIPAL ********** */
+#container{
+	padding-inline: 11,7%;
+}
 
 #container-card-principal {
 	margin-top: 24px;
-	margin-inline: 150px;
+	/* margin-inline: 11,7%; */
 }
 
 #body-card-principal {
@@ -97,17 +101,20 @@ footer {
 
 #body-card-principal .btn {
 	font-size: 16px;
-	/* color: #373a3c; */
 }
 
 /* **************** CARRUSEL ** *********** */
 
-.carousel-item img {
-	width: 233px;
-	height: 170px;
+
+#myCarousel{
+	/* margin-inline: 11,7%; */
+	border: 1px solid red;
 }
 
-
+.carousel-item div div img {
+	max-width: 233px;
+	max-height: 170px;
+}
 
 .carousel-indicators [data-bs-target] {
 	width: 10px;
@@ -119,23 +126,25 @@ footer {
 ********* RECETA ******* */
 
 #receta-section {
-	padding-inline: 20%;
+	/* margin-inline: 11,7%; */
 }
 
-#ingredientes,
-#preparacion {
+#text-ingredientes,
+#text-preparacion {
 	font-size: 20px;
+	max-width: 482px;
 }
 
 /* ********* RECETAS RELACIONADAS ********** */
 
 .card-recetas-relacionadas {
-	max-width: 316px;
+	padding :0px;
+	width: 316px;
 }
 
 .card-img-top-recetas-relacionadas,
 .card-body-recetas-relacionadas {
-	width: 316px;
+	width: 100%;
 }
 .card-img-top-recetas-relacionadas {
 	height: 180px;
@@ -148,6 +157,8 @@ footer {
 .card-text-recetas-relacionadas {
 	font-size: 20px;
 }
+
+
 
 /* ********* NEWSLETTER ********+ */
 
@@ -168,6 +179,9 @@ footer {
 	width: 233px;
 	height: 40px;
 }
+
+
+
 
 /* ****** FOOTER ******** */
 
