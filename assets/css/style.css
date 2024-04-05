@@ -31,15 +31,16 @@ footer {
 	font-style: normal;
 }
 
+.bg-cafe{
+	background-color: #373a3c;
+}
+
+
 /* ****** NAVBAR ******* */
 
 .container-navbar {
 	padding-left: 150px;
-	/* padding-right: 154px; */
-}
-
-.navbar {
-	background-color: #373a3c;
+	
 }
 
 #navbar-brand {
@@ -57,13 +58,12 @@ footer {
 	font-size: 16px;
 }
 
-
 /* ********** C A R D  PRINCIPAL ********** */
-#container{
-	padding-inline: 11,7%;
+#container {
+	padding-inline: 11, 7%;
 }
 
-#hr-sup-card-principal{
+#hr-sup-card-principal {
 	max-width: 482px;
 }
 
@@ -116,10 +116,7 @@ footer {
 #text-ingredientes,
 #text-preparacion {
 	font-size: 20px;
-	
-
 }
-
 
 /* ********* RECETAS RELACIONADAS ********** */
 
@@ -128,7 +125,7 @@ footer {
 }
 
 .card-recetas-relacionadas {
-	padding :0;
+	padding: 0;
 	padding-block: 10px;
 	width: 316px;
 }
@@ -149,9 +146,6 @@ footer {
 .card-text-recetas-relacionadas {
 	font-size: 20px;
 }
-
-
-
 
 /* ********* NEWSLETTER ********+ */
 
@@ -174,18 +168,12 @@ footer {
 	font-size: 16px;
 }
 
-
-
 /* ****** FOOTER ******** */
 
 footer {
-	background-color: #373a3c;
 	height: 125px;
 	font-size: 37px;
 }
-
-
-
 
 /* *******  (max-width: 768px) ******* */
 
@@ -198,44 +186,36 @@ footer {
 		position: static;
 	}
 
-	#card-principal, #img-card-principal, #body-card-principal {
+	#card-principal,
+	#img-card-principal,
+	#body-card-principal {
 		max-width: 246px;
-
 	}
 
-	#title-card-principal{
+	#title-card-principal {
 		font-size: 25px;
 	}
-	
 }
-
-
 
 @media only screen and (max-width: 768px) {
 	#text-ingredientes {
-
 		padding-left: 25%;
 	}
-	
-	#text-preparacion{
+
+	#text-preparacion {
 		padding-left: 15%;
 	}
-
 }
-
 
 @media only screen and (min-width: 1200px) {
-#text-ingredientes{
-	padding-left: 40%;
+	#text-ingredientes {
+		padding-left: 40%;
+	}
+
+	#body-card-principal {
+		padding-left: 10px;
+	}
 }
-
-#body-card-principal{
-	padding-left: 10px;
-}
-
-
-}
-
 
 @media only screen and (max-width: 1200px) {
 	*,

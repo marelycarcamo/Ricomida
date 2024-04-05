@@ -1,11 +1,10 @@
-
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
-
-
 $(document).ready(function () {
-	$('[data-toggle="tooltip"]').tooltip();
+	// Tooltips
+	// Tooltips
+	const tooltipTrigger = $('[data-bs-toggle="tooltip"]');
+	$.each(tooltipTrigger, function (index, tooltipTriggerEl) {
+		new bootstrap.Tooltip(tooltipTriggerEl);
+	});
 
 
 	$("#enviarCorreo").click(function () {
